@@ -11,6 +11,7 @@ Estilo para el html de la red social
 /*001*/
 body {
     background-color: #1db7e6;
+    color: black;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
