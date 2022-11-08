@@ -1,0 +1,68 @@
+/************
+David Martínez Castañón - UO282048
+Estilo para el html de la red social
+************/
+@media screen and (max-width: 55em) {
+    /*001*/
+    body {
+      font-size: 2vw;
+    }
+}
+/*001*/
+body {
+    background-color: #1db7e6;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*001*/
+main {
+    background-color: rgb(4, 21, 104);
+    color: white;
+    font-size: 1.15em;
+    padding: 5em;
+    margin: 2em;
+    border-radius: 1em;
+    width: 60%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+/*001*/
+h1 {
+    align-self: center;
+    background-color: crimson;
+    color: white;
+    padding: 1em 3em;
+    border-radius: 1em;
+    border: 0.25em solid white;
+}
+/*001*/
+section {
+    margin-top: 1em;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+}
+/*013*/
+section > p + section:first-of-type {
+    margin-top: 2em;
+    width: 80%;
+    background-color: #cdcdcd;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/*001*/
+h2, h3, h4, h5, h6 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    align-self: center;
+}
+/*014*/
+section > p + section:first-of-type > img,
+section > p + section:first-of-type > video {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
